@@ -20,6 +20,7 @@ body {
     font-weight: 600;
     font-family: "Orbitron", sans-serif;
     font-size: 1.5rem;
+    color: #002145;
 }
 
 .navbar {
@@ -63,7 +64,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.658)), url(https://i.pinimg.com/1200x/1c/b6/d8/1cb6d86f091c538a47b2dbaec7d4183b.jpg);
+    background-color: #B3D0D9;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -120,7 +121,7 @@ body {
 }
 
 .project-card {
-    background-color: #B7BDF7;
+    background-color: #D1D5D7;
     padding: 20px 20px 50px 20px;
     border-radius: 8px;
     width: 1fr;
@@ -141,7 +142,7 @@ body {
 }
 
 .skills {
-    background-color: darkgrey;
+    background-color: #B3D0D9;
     padding: 4rem 10%;
 }
 
