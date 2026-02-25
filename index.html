@@ -11,6 +11,7 @@
 <body>
     <nav class="navbar">
         <div class="logo">Towhidul Mowla Chowdhury</div>
+        <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
         <ul class="navlinks">
             <li><a href="#About">About</a></li>
             <li><a href="#Skills">Skills</a></li>
@@ -78,6 +79,18 @@
         <p>Email: <span>towhidulmowlachowdhury@gmail.com</span></p>
         <p>&copy;2026 Towhidul Mowla Chowdhury</p>
     </footer>
+
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function () {
+            document.querySelector('.navlinks').classList.toggle('open');
+        });
+        // Close menu when a link is clicked
+        document.querySelectorAll('.navlinks a').forEach(function (link) {
+            link.addEventListener('click', function () {
+                document.querySelector('.navlinks').classList.remove('open');
+            });
+        });
+    </script>
 </body>
 
 </html>
