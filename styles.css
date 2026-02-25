@@ -14,17 +14,19 @@ body {
     font-weight: 400;
     font-style: normal;
     line-height: 1.5;
+    background-color: #0d0d0d;
+    color: #e0e0e0;
 }
 
 .logo {
     font-weight: 600;
     font-family: "Orbitron", sans-serif;
     font-size: 1.5rem;
-    color: #002145;
+    color: #00e5ff;
 }
 
 .navbar {
-    background-color: #ffffff;
+    background-color: #1a1a1a;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,8 +34,8 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.425);
-
+    box-shadow: 0px 2px 12px rgba(0, 229, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .navlinks {
@@ -44,16 +46,17 @@ body {
 
 .navbar ul li a {
     font-weight: 600;
-    color: black;
+    color: #c0c0c0;
 }
 
 .navbar ul li a:hover {
-    color: brown;
+    color: #00e5ff;
 }
 
 .navlinks a {
     text-decoration: none;
-    color: black;
+    color: #c0c0c0;
+    transition: color 0.3s ease;
 }
 
 .hero {
@@ -64,7 +67,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #B3D0D9;
+    background: linear-gradient(135deg, #0d0d0d 0%, #1a1a2e 50%, #16213e 100%);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,16 +75,16 @@ body {
 
 .hero h1 {
     font-size: 3rem;
-    color: #44A194;
+    color: #a0a0a0;
 }
 
 .hero p {
     font-size: 2rem;
-    color: white;
+    color: #888;
 }
 
 .hg {
-    color: rgb(255, 255, 255);
+    color: #00e5ff;
 }
 
 .container {
@@ -91,6 +94,7 @@ body {
 .project-des {
     text-align: center;
     margin-bottom: 4rem;
+    color: #ffffff;
 }
 
 .project-grid {
@@ -117,32 +121,38 @@ body {
 
 .project-card a {
     text-decoration: none;
-    color: rgb(10, 42, 184);
+    color: #00e5ff;
+    transition: color 0.3s ease;
+}
+
+.project-card a:hover {
+    color: #64ffda;
 }
 
 .project-card {
-    background-color: #D1D5D7;
+    background-color: #1e1e1e;
     padding: 20px 20px 50px 20px;
     border-radius: 8px;
     width: 1fr;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .project-card:hover {
     transform: translateY(-4px);
-    border: 1px solid #1A2CA3;
+    border: 1px solid #00e5ff;
+    box-shadow: 0px 8px 25px rgba(0, 229, 255, 0.15);
 }
 
 .skill-des {
     text-align: center;
     margin-bottom: 4rem;
-    /* margin-top: 4rem; */
+    color: #ffffff;
 }
 
 .skills {
-    background-color: #B3D0D9;
+    background-color: #121212;
     padding: 4rem 10%;
 }
 
@@ -155,14 +165,13 @@ body {
 }
 
 .card {
-    color: white;
+    color: #e0e0e0;
     font-size: 1.7rem;
-    background-color: #393E46;
+    background-color: #1e1e1e;
     padding: 10px 15px;
     font-weight: bold;
     border-radius: 8px;
-    border-bottom: 3px solid #56DFCF;
-    /* margin-bottom: 4rem; */
+    border-bottom: 3px solid #00e5ff;
     transition: transform 0.3s ease;
 }
 
@@ -183,7 +192,7 @@ body {
 .ls {
     font-weight: 400;
     text-align: center;
-    /* font-style: italic; */
+    color: #00e5ff;
 }
 
 footer p {
@@ -192,6 +201,8 @@ footer p {
 
 footer {
     padding: 1.1rem 10%;
+    background-color: #1a1a1a;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 footer span {
@@ -205,7 +216,7 @@ footer span {
     border: none;
     font-size: 1.8rem;
     cursor: pointer;
-    color: #002145;
+    color: #00e5ff;
 }
 
 /* ========== Tablet — max-width: 768px ========== */
@@ -233,7 +244,7 @@ footer span {
 
     .navlinks li {
         padding: 0.6rem 0;
-        border-top: 1px solid rgba(0, 0, 0, 0.08);
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
     }
 
     .hero h1 {
