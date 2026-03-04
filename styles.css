@@ -92,6 +92,7 @@ body {
 }
 
 .project-des {
+    font-size: 3.5rem;
     text-align: center;
     margin-bottom: 4rem;
     color: #ffffff;
@@ -146,6 +147,7 @@ body {
 }
 
 .skill-des {
+    font-size: 3.5rem;
     text-align: center;
     margin-bottom: 4rem;
     color: #ffffff;
